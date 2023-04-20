@@ -4,13 +4,19 @@ const customTheme = responsiveFontSizes(
     createTheme({
         palette: {
             primary: {
-                main: '#212121',
+                main: '#434343',
                 contrastText: '#fff',
             },
 
             secondary: {
-                main: '#fe3227',
+                main: '#eb4a5a',
                 contrastText: '#fff',
+            },
+
+            whites: {
+                main: '#f9fafc',
+                dark: '#f6f3f3',
+                contrastText: '#000000',
             },
         },
 
